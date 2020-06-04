@@ -16,10 +16,10 @@
 3. Run `yarn install`
 
 ### Ressources
-* [DoctrineFixturesBundle](https://symfony.com/doc/master/bundles/DoctrineFixturesBundle/index.html)
+* [Doctrine Fixtures](https://symfony.com/doc/master/bundles/DoctrineFixturesBundle/index.html)
 * [Mailer](https://symfony.com/doc/current/mailer.html) 
 * [Mailer - Security Google](https://myaccount.google.com/lesssecureapps?pli=1)
-* [VichUploaderBundle](https://symfony.com/doc/current/bundles/EasyAdminBundle/integration/vichuploaderbundle.html) (https://github.com/dustin10/VichUploaderBundle)
+* [Vich Uploader](https://symfony.com/doc/current/bundles/EasyAdminBundle/integration/vichuploaderbundle.html) (https://github.com/dustin10/VichUploaderBundle)
 * [CKEditor](https://symfony.com/doc/current/bundles/FOSCKEditorBundle/usage/ckeditor.html)
 * [CKEditor Installation](https://symfony.com/doc/current/bundles/FOSCKEditorBundle/installation.html)
 * [GITHUB ElFinder](https://github.com/helios-ag/FMElfinderBundle#readme)
