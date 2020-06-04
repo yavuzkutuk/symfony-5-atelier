@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Show!{% endblock %}
+
+{% block body %}
+    <h1>{{ home.name }}</h1>
+    <h2>{{ home.slug }}</h2>
+    <a href="{{ path('home') }}">listes</a>
+{% endblock %}

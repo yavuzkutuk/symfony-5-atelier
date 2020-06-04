@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">name</th>
+            <th scope="col">slug</th>
+            <th scope="col">options</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for home in homes %}
+        <tr>
+            <th scope="row">{{ home.id }}</th>
+            <td>{{ home.name }}</td>
+            <td>{{ home.slug }}</td>
+            <td><a href="{{ path('show', {slug:home.slug}) }}">Voir</a></td>
+        </tr>
+        {% else %}
+            <tr>
+                <td colspan="4">Aucunes données</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <div><a href="{{ path('nouveau') }}">Nouveau</a> </div>
+{% endblock %}
